@@ -1,0 +1,72 @@
+
+h1 {
+    color:brown;
+    background: lavender;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(149, 75, 172);
+    font-size: 18px;
+}
+
+h3 {
+    margin: 5%;
+    color:salmon;
+}
+
+li {
+    line-height: 1.5;
+}
+
+.title {
+    background-color: rgb(21, 90, 38);
+    font-size: 25px;
+    color:yellowgreen;
+}
+[href^="https"] {
+    color: red;
+    text-decoration: underline;
+}
+
+p > span {
+    text-decoration-line:underline;
+    background-color: yellow;
+}
+
+ul > li {
+    background-color:palevioletred;
+}
+
+ol ~ li {
+    color:slateblue;
+}
+
+ol + li {
+    color:rgb(21, 90, 38)
+}
+
+ol > li {
+    background-color: blueviolet;
+}
+
+a:link {
+    color:red;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+.text.text-small {
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.text {
+    font-size: 18px;
+    color: blue;
+}
+
