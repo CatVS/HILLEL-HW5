@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW5. Selectors. </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Selectors</h1>
+    </header>
+    <main>
+        <h2 style="color:blue; background-color: antiquewhite; text-align: center;">Первая часть задания</h2>
+        <h2>h1 { }</h2>
+            <p>Заголовок типа h1</p>
+        <h2>p { }</h2>
+            <p>текст расположенный внутри элемента p</p>
+        <h2>#id { }</h2>
+            <p>элемент с данным id</p>
+        <h2>.class { }</h2>
+            <p>элементы класса</p>
+        <h2>* { }</h2>
+            <p>все элементы страницы</p>
+        <h2>R D { }</h2>
+            <p>R - родительский элемент, а D — дочерний элемент, расположенный в контейнере родительского</p>
+        <h2>R > D { }</h2>
+            <p>стиль применяется только для D, если он дочерний для R</p>
+        <h2>R + D { }</h2>
+            <p>стиль применяется только для D, если он соседний для R</p>
+        <h2>R ~ D { }</h2>
+            <p>стиль применяется для D, если он расположен после R</p>
+        <h2>[атрибут="&lt;значение>"]</h2>
+            <p>применяется ко всем тегам, которые содержат указанное значение атрибута</p>
+        <h2>E[атрибут="&lt;значение>"]</h2>
+            <p>применяется только к определённым селекторам</p>
+        <h2>[атрибут^="&lt;значение>"]</h2>
+            <p>стиль применяется ко всем элементам, у которых значение атрибута начинаются с указанного текста</p>
+        <h2>E[атрибут^="&lt;значение>"] </h2>
+            <p>только к определенным селекторам у которых значение атрибута начинаются с указанного текста</p>
+        <h2>[атрибут$="значение"]</h2>
+            <p>стиль для элемента, если значение атрибута оканчивается указанным текстом</p>
+        <h2>[атрибут*="значение"]</h2>
+            <p>когда стиль следует применить к тегу с определённым атрибутом, когда частью его значения является некоторый текст</p>
+        <h2 style="color:blue; background-color:antiquewhite;text-align: center;">Вторая часть задания</h2>
+        <nav>
+            <a href="#ph">текст задания 1</a>  
+            <a href="#pd">текст задания 2</a>
+        </nav>
+        <h2 class="title">Заголовок class title </h2>
+        <p>text text texttexttext texttexttext text text texttext text text text text text text texttexttext texttexttext text text texttext text text text text text text texttexttext <span>text span</span> text text texttext text text text texttext text texttexttext texttexttext text <a href="https://google.com/"> text-link</a> text texttext text text text text</p>
+        
+        <ol>
+            <li>список 1</li>
+            <li>список 2</li>
+            <li>список 3</li>
+            <li>
+            <ul>
+                <li>список внутри списка</li>
+                <li>список внутри списка</li>
+                <li>список внутри списка</li>
+            </ul>
+            </li>
+            <li>список 4</li>
+            <li>список 5</li>
+        </ol>
+        
+        <h3>Задание 1</h3>
+        <p id="ph" class="text">text text texttexttext <strong>texttexttext</strong> text text texttext text text text text text text texttexttext texttexttext text text texttext text text text text text text texttexttext text text texttext text text text texttext text texttexttext texttexttext text text texttext text text text text</p>        
+        <h3>Задание 2</h3>
+        <p id="pd" class="text text-small">Нужно создать 10 любых элементов с текстом на странице и каждому из них назначить разный цвет с помощью разных селекторов.</p>
+    </main>
+</body>
+</html>
